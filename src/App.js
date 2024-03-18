@@ -62,9 +62,7 @@ function App() {
 	return (
 		<div className='App'>
 			<Container>
-				<div className='App-header'>
-					<h2>Rock Paper Scissors</h2>
-				</div>
+				<div className='App-header'></div>
 
 				<div className='App-middle'>
 					<div className='box-container'>

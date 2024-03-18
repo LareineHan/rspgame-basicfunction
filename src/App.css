@@ -10,18 +10,6 @@ body {
   background-color: #a09f9f;
   color: rgb(0, 0, 0);
 }
-.rsp-title {
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
-  color: #050404;
-  text-align: center;
-}
-.App-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 1rem;
-}
 
 
 .default-screen.hide {
@@ -50,13 +38,20 @@ body {
   justify-content: center;
   align-items: center;
 }
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
+  margin-bottom: 4rem;
+}
 .box-container div {
   padding: 40px;
 }
 .rsp-img {
   display: block;
-  max-width: 57%;
-  max-height: 45%;
+  max-width: 90px;
+  max-height: 85px;
   /* max-width:73px;
   max-height:100px; */
   width: auto;
@@ -96,8 +91,7 @@ body {
   padding-top: 0;
 }
 .rsp-btn {
-  max-width: 3.2rem;
-  max-height: 3rem;
+  width: 60px;
   margin: 0.5rem;
   border: none;
   background-color: transparent;
@@ -105,7 +99,7 @@ body {
 }
 
 .rsp-btn img {
-  max-width: 90%;
+ width: 80%;
 }
 
 
