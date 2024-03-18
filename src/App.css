@@ -22,12 +22,7 @@ body {
   align-items: center;
   padding-top: 1rem;
 }
-#screen {
-  display: none;
-}
-#screen.show {
-  display: flex;
-}
+
 
 .default-screen.hide {
   display: none;

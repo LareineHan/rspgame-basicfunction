@@ -67,7 +67,7 @@ function App() {
 				</div>
 
 				<div className='App-middle'>
-					<div className='box-container' id='screen'>
+					<div className='box-container'>
 						<Box title='You' item={userSelect} result={result} />
 						<Box title='Computer' item={computerSelect} result={result} />
 					</div>
