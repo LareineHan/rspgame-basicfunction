@@ -63,7 +63,7 @@ function App() {
 		<div className='App'>
 			<Container>
 				<div className='App-header'></div>
-
+				<h1>Rock Paper Scissors</h1>
 				<div className='App-middle'>
 					<div className='box-container'>
 						<Box title='You' item={userSelect} result={result} />
