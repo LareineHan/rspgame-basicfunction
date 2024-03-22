@@ -1,4 +1,4 @@
-# 🪨✂️🧻 Rock Scissors Paper Game
+# 🪨✂️🧻 Rock Scissors Paper Game (Class component ver.)
 
 Welcome to the Rock Scissors Paper Game, a dynamic and interactive web application developed using React Class Components. This project was created to explore and study React's Class Components, providing a hands-on learning experience.
 
