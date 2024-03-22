@@ -135,11 +135,9 @@ export default class AppClass extends Component {
 	render() {
 		return (
 			<div className='App'>
-				{' '}
 				{!this.state.username ? (
 					<Container className='game-container'>
 						<div className='register-user-choice'>
-							{' '}
 							<div className='register'>
 								<h1>Rock Scissors Paper</h1>
 								<form onSubmit={this.handleSubmit}>
@@ -153,17 +151,15 @@ export default class AppClass extends Component {
 										/>
 									</label>
 								</form>
-							</div>{' '}
-						</div>{' '}
+							</div>
+						</div>
 					</Container>
 				) : (
 					<Container className='game-container'>
 						<h1 className='title'>Rock Scissors Paper</h1>
 						<div className='user-choice'>
-							{' '}
 							{this.state.computerSelect ? (
 								<>
-									{' '}
 									<BoxClass
 										player={this.state.username}
 										decision={this.state.userSelect}
@@ -179,7 +175,6 @@ export default class AppClass extends Component {
 								</>
 							) : (
 								<>
-									{' '}
 									<BoxClass
 										player={this.state.username}
 										decision={null}
@@ -206,7 +201,7 @@ export default class AppClass extends Component {
 									/>
 								</button>
 							))}
-						</div>{' '}
+						</div>
 						<div className='exit-btn'>
 							<button onClick={() => this.ExitGame()}>Exit Game</button>
 						</div>
